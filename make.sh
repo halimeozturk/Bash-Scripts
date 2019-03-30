@@ -2,5 +2,7 @@
 
 [ $# -eq 0 ] && echo 0 && exit 0
 
-touch $1".sh"
-chmod +x $1".sh"
+
+a=bash$1.sh
+touch $a
+chmod +x $a
